@@ -275,7 +275,7 @@ h5 {
         border-style: inset;
         border-color: initial;
         border-image: initial;
-        overflow: clip !important;
+        /* overflow: clip !important; */
     }
 
     h1 {

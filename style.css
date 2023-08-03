@@ -44,16 +44,7 @@ iframe {
 }
 
 
-h1 {
-	color: white;
-	text-align: center;
-	width: 100%;
-	padding: 30px 0;
-	font-weight: 800;
-	margin: 0;
-    font-size: 75px;
-    margin-top:4rem;
-}
+
 
 h2 {
 	color: white;
@@ -65,6 +56,20 @@ h2 {
 	margin-top: 3rem;
 
 }
+h1 {
+    color: white;
+	text-align: center;
+	width: 100%;
+	padding: 30px 0;
+	font-weight: 800;
+	margin: 0;
+    font-size: 75px;
+    margin-top:4rem;
+    font-size: 2.8rem;
+    position: relative;
+    top: 0px;
+    
+  }
 
 
 /* Content-1:Start */
@@ -237,6 +242,7 @@ h5 {
 @media (max-width: 480px) {
     
     .box{
+      
        
         width: 82vw;
         border-radius: 10px;   
@@ -279,11 +285,12 @@ h5 {
         border-style: inset;
         border-color: initial;
         border-image: initial;
-        /* overflow: clip !important; */
+        overflow: clip !important;
         
     }
 
     h1 {
+        
         color: white;
         text-align: center;
         width: 100%;
@@ -291,6 +298,7 @@ h5 {
         font-weight: 800;
         margin: 0;
         font-size: 55px;
+        margin-top: 70px;
     }
     
     h2 {
@@ -683,6 +691,8 @@ h5 {
       padding: 16px 32px 20px 32px;
     }
   }
+
+  
   
   /*navbar end*/
 

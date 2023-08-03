@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 
+html{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 * {
   margin: 0;
   padding: 0;
@@ -21,9 +24,9 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-image: radial-gradient(circle, #3d32b9, #3035af, #2536a5, #1b379a, #14378f, #113386, #0e2e7e, #0a2a75, #06206d, #041764, #030c5c, #030053);
+  overflow-x: hidden;
 
-
-  background-image: radial-gradient(circle, #3d32b9, #3035af, #2536a5, #1b379a, #14378f, #113386, #0e2e7e, #0a2a75, #06206d, #041764, #030c5c, #030053);;
 }
 
 
@@ -39,6 +42,7 @@ iframe {
     margin-bottom: 50px;
 
 }
+
 
 h1 {
 	color: white;
@@ -519,6 +523,7 @@ h5 {
 }
 
 
+
 /*navbar start*/
 
 .nav-container {
@@ -527,7 +532,7 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color:white;
     font-weight: bold;
   }
   
@@ -680,3 +685,26 @@ h5 {
   }
   
   /*navbar end*/
+
+
+  #body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px transparent;
+    border-radius: 10px;
+    background-color: transparent;
+    z-index: 999;
+  }
+  
+  #body::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+    z-index: 999;
+  }
+  
+  #body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px transparent;
+    background-color: gainsboro;
+    z-index: 999;
+  }
+  
+  

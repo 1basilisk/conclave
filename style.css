@@ -92,8 +92,8 @@ h1 {
 }
 
 .image img {
-  height: 15vw;
-  width: 15vw;
+  height: 25vw;
+  width: 25vw;
   border-radius: 50%;
 
   display: block;
@@ -110,8 +110,8 @@ h1 {
   border-radius: 5px;
   font-weight: bolder;
   letter-spacing: 1px;
-
-  display: block;
+  display: none;
+  
   margin: 0px auto 10px;
 }
 
@@ -131,7 +131,6 @@ h1 {
 .job_discription {
   font-size: 0.7em;
   color: black;
-  font-weight: bold;
   font-size: larger;
   justify-content: center;
   justify-self: auto;
@@ -145,6 +144,7 @@ h1 {
   font-size: 1.5em;
   display: flex;
   justify-content: space-around;
+  
 }
 
 .icons button {
@@ -155,10 +155,12 @@ h1 {
 }
 
 ion-icon:hover {
-  color: #58a497;
+  color: #0c265f;
   transition: 0.5s;
 }
-
+.icons a{
+  color:#000;
+}
 button {
   width: 130px;
   height: 40px;

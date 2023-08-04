@@ -137,6 +137,7 @@ h1 {
   justify-self: auto;
   margin: 10px 30px 20px;
   height: auto;
+  
 }
 
 .icons {
@@ -326,6 +327,13 @@ h5 {
         font-size: 35px;
         font-weight: 800;
         margin-top: 3rem;
+    }
+
+    .job_discription {
+      
+      font-size: small;
+      
+      
     }
 }
 /* Responsiveness:End */

@@ -96,8 +96,8 @@ h1 {
 }
 
 .image img {
-  height: 20vw;
-  width: 20vw;
+  height: 15vw;
+  width: 15vw;
   border-radius: 50%;
   object-fit: cover;
   display: block;
@@ -750,6 +750,11 @@ nav {
 }
 
 @media (min-width: 1300px) {
+
+  .image img {
+    height: 10vw;
+    width: 10vw;
+  }
 
   .mobile-menu,
   .hamburger {

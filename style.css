@@ -292,8 +292,8 @@ h5 {
   }
 
   .image img {
-    height: 35vw;
-    width: 35vw;
+    height: 45vw;
+    width: 45vw;
     border-radius: 50%;
     object-fit: cover;
     display: block;

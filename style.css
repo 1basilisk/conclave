@@ -82,6 +82,8 @@ h1 {
   padding: 10px;
   text-align: center;
   background: #ededed;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0px 10px 5px rgb(3,3,3);
 }
 
 .box1 {
@@ -102,6 +104,8 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5px;
+  box-shadow: 0 3px 4px 4px rgb(3,3,3);
+
 }
 
 .level {
@@ -157,12 +161,12 @@ h1 {
 }
 
 ion-icon:hover {
-  color: #0c265f;
+  color: #a721c9;
   transition: 0.5s;
 }
 
 .icons a {
-  color: #000;
+  color: #333;
 }
 
 button {
@@ -255,8 +259,6 @@ h5 {
 
 /* Responsiveness:Start */
 @media (max-width: 480px) {
-
-
 
   .box {
 

@@ -83,7 +83,7 @@ h1 {
   text-align: center;
   background: #ededed;
   backdrop-filter: blur(10px);
-  box-shadow: 0 0px 10px 5px rgb(3, 3, 3);
+  box-shadow: 0 0px 10px 3px rgb(3, 3, 3);
 }
 
 .box1 {
